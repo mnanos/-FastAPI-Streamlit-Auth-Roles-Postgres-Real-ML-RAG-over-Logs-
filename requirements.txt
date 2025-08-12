@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+pydantic
+streamlit
+httpx
+sqlalchemy
+passlib[bcrypt]
+PyJWT
+scikit-learn
+joblib
+numpy
+transformers
+torch
+psycopg2-binary
+chromadb
+sentence-transformers
+pandas
