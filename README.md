@@ -21,7 +21,7 @@ export CHROMA_PATH="chroma_db"
 export EMBED_MODEL="sentence-transformers/all-MiniLM-L6-v2"
 uvicorn backend.main:app --reload --port 8000
 # new terminal
-streamlit run frontend/app.py --server.port 8501
+python -m streamlit run frontend/app.py --server.port 8501
 ```
 
 Open http://localhost:8501
